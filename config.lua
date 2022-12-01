@@ -7,7 +7,7 @@ Config = {
   Debug = false, -- if your server is live set this to false.  to true only if you are testing things
   DevMode = false, -- if your server is live set this to false.  to true only if you are testing things (auto load inventory when script restart and before character selection. Alos add /getInv command)
 
-  defaultlang = "en_lang",
+  defaultlang = "fr_lang",
   dbupdater = true,
   ShowCharacterNameOnGive = false, -- when giving an item, show the character name of nearby players instead of their player ID. if set to false, show the player ID
 
@@ -31,7 +31,7 @@ Config = {
   },
   -- GOLD ITEM LIKE DOLLARS
   UseGoldItem = false,
-  AddGoldItem = false, -- Should there be an item in inventory to represent gold
+  AddGoldItem = true, -- Should there be an item in inventory to represent gold
   AddDollarItem = true, -- Should there be an item in inventory to represent dollars
   AddAmmoItem = true, -- Should there be an item in inventory to represent the gun belt
 
@@ -79,7 +79,6 @@ Config = {
   -- FIRST JOIN
   startItems = {
     consumable_raspberrywater = 2, --ITEMS SAME NAME AS IN DATABASE
-    ammorevolvernormal = 1 --AMMO SAME NAME AS I NTHE DATABASE
   },
 
   startWeapons = {
