@@ -30,7 +30,7 @@ Config = {
     "WEAPON_MELEE_KNIFE",
   },
   -- GOLD ITEM LIKE DOLLARS
-  UseGoldItem = false,
+  UseGoldItem = true,
   AddGoldItem = true, -- Should there be an item in inventory to represent gold
   AddDollarItem = true, -- Should there be an item in inventory to represent dollars
   AddAmmoItem = true, -- Should there be an item in inventory to represent the gun belt
@@ -142,6 +142,7 @@ Config = {
     AMMO_MOLOTOV = 5,
     AMMO_MOLOTOV_VOLATILE = 5
   },
+
   Ammolabels = { -- you can change this to your language
     AMMO_PISTOL = "Normal Pistol",
     AMMO_PISTOL_EXPRESS = "Express Pistol",
@@ -188,6 +189,7 @@ Config = {
     AMMO_MOLOTOV = "Molotov",
     AMMO_MOLOTOV_VOLATILE = "Volatile Molotov"
   },
+
   --DON'T TOUCH BESIDES NAME OF WEAPON
   Weapons = {
     {
@@ -350,25 +352,21 @@ Config = {
       Name = "Varmint Rifle",
       Desc = "A rifle useful for hunting critters",
       HashName = "WEAPON_RIFLE_VARMINT",
-
     },
     {
       Name = "Winchester Repeater",
       Desc = "lever-action repeating rifles manufactured by the Winchester Repeating Arms Company",
       HashName = "WEAPON_REPEATER_WINCHESTER",
-
     },
     {
       Name = "Henry Reapeater",
       Desc = " lever-action tubular magazine rifle",
       HashName = "WEAPON_REPEATER_HENRY",
-
     },
     {
       Name = "Evans Repeater",
       Desc = "a lever-action repeating rifle designed by Warren R. Evans as a high capacity rifle",
       HashName = "WEAPON_REPEATER_EVANS",
-
     },
     {
       Name = "Carabine Reapeater",
@@ -424,7 +422,6 @@ Config = {
       Name = "Pump Shotgun",
       Desc = "repeating firearm action that is operated manually by moving a sliding handguard",
       HashName = "WEAPON_SHOTGUN_PUMP",
-
     },
     {
       Name = "Double Barrel Shotgun",
@@ -485,13 +482,11 @@ Config = {
       Name = "Dynamite",
       Desc = "boomstick",
       HashName = "WEAPON_THROWN_DYNAMITE",
-
     },
     {
       Name = "Molotov",
       Desc = "an arsonists bestfriend",
       HashName = "WEAPON_THROWN_MOLOTOV",
-
     },
     {
       Name = "Improved Bow",
@@ -517,7 +512,6 @@ Config = {
       Name = "Moonshine Jug",
       Desc = "those are very fun",
       HashName = "WEAPON_MOONSHINEJUG_MP",
-
     },
     {
       Name = "Bolas",
@@ -533,13 +527,11 @@ Config = {
       Name = "Bolas Ironspiked",
       Desc = "a more edgy bola",
       HashName = "WEAPON_THROWN_BOLAS_IRONSPIKED",
-
     },
     {
       Name = "Bolas Intertwined",
       Desc = "a stronger bola",
       HashName = "WEAPON_THROWN_BOLAS_INTERTWINED",
-
     },
     {
       Name = "Fishing Rod",
@@ -555,13 +547,11 @@ Config = {
       Name = "Lantern Haloween",
       Desc = "made with a real human skull",
       HashName = "WEAPON_MELEE_LANTERN_HALOWEEN",
-
     },
     {
       Name = "Hammer",
       Desc = "Richards Hammer!",
       HashName = "WEAPON_MELEE_HAMMER",
-
     }
   }
 }
